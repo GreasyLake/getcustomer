@@ -13,7 +13,7 @@
 ## Common image variables
 ###############################################################################
 image:
-  repository: mycluster.icp:8500/default/getcustomer
+  repository: alanhopkins/getcustomer
   tag: latest
   pullPolicy: IfNotPresent
   license: ""
