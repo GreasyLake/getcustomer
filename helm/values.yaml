@@ -16,13 +16,13 @@ image:
   repository: alanhopkins/getcustomer
   tag: latest
   pullPolicy: IfNotPresent
-  license: ""
+  license: "accept"
 
 service:
   type: NodePort
   name: liberty
-  port: 9443
-  targetPort: 9443
+  port: 9080
+  targetPort: 9080
 
 ###############################################################################
 ## Persistence Storage
@@ -70,7 +70,7 @@ resources:
     memory: 512Mi
 
 ssl:
-  enabled: true
+  enabled: false
   useClusterSSLConfiguration: false
   createClusterSSLConfiguration: false
 
