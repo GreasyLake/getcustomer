@@ -35,7 +35,7 @@ public class CustomerDAO {
 		customer_00000002.setEmailAddress("blenkinsopw@gmail.com");
 		customer_00000002.setTelephoneNumber("04829142739");
 		customer_00000002.setAddr1("87 Oak Avenue");
-		customer_00000002.setTown("Winchester");
+		customer_00000002.setTown("Manchester");
 		customer_00000002.setCounty("Hants");
 		customer_00000002.setCountry("England");
 		customer_00000002.setPostCode("S065 83A");
