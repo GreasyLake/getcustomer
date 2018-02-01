@@ -13,7 +13,7 @@
 ## Common image variables
 ###############################################################################
 image:
-  repository: ##IMAGENAME##
+  repository: $$IMAGENAME$$
   tag: latest
   pullPolicy: IfNotPresent
   license: "accept"
