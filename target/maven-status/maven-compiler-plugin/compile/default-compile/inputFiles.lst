@@ -1,7 +1,7 @@
-/home/alan/eclipse-workspaces/customer/CustomerDetails/src/main/java/application/rest/resources/data/CustomerDetails.java
-/home/alan/eclipse-workspaces/customer/CustomerDetails/src/main/java/application/rest/resources/data/CustomerDAO.java
-/home/alan/eclipse-workspaces/customer/CustomerDetails/src/main/java/application/rest/resources/CustomerResource.java
-/home/alan/eclipse-workspaces/customer/CustomerDetails/src/main/java/application/rest/resources/data/CustomerArray.java
-/home/alan/eclipse-workspaces/customer/CustomerDetails/src/main/java/application/rest/resources/data/CustomerDetailsArray.java
-/home/alan/eclipse-workspaces/customer/CustomerDetails/src/main/java/application/rest/CustomerApplication.java
-/home/alan/eclipse-workspaces/customer/CustomerDetails/src/main/java/application/rest/resources/data/Customer.java
+/home/alan/demo/getcustomer/src/main/java/application/rest/resources/data/CustomerDAO.java
+/home/alan/demo/getcustomer/src/main/java/application/rest/CustomerApplication.java
+/home/alan/demo/getcustomer/src/main/java/application/rest/resources/data/CustomerDetails.java
+/home/alan/demo/getcustomer/src/main/java/application/rest/resources/data/Customer.java
+/home/alan/demo/getcustomer/src/main/java/application/rest/resources/CustomerResource.java
+/home/alan/demo/getcustomer/src/main/java/application/rest/resources/data/CustomerArray.java
+/home/alan/demo/getcustomer/src/main/java/application/rest/resources/data/CustomerDetailsArray.java

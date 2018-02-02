@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="application.test.CustomerResourceTest" time="6.201" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="application.test.CustomerResourceTest" time="11.779" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.vendor" value="IBM Corporation"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="os.name" value="Linux"/>
     <property name="sun.boot.class.path" value="/opt/ibm/java/jre/lib/amd64/compressedrefs/jclSC180/vm.jar:/opt/ibm/java/jre/lib/se-service.jar:/opt/ibm/java/jre/lib/cuda4j.jar:/opt/ibm/java/jre/lib/math.jar:/opt/ibm/java/jre/lib/ibmorb.jar:/opt/ibm/java/jre/lib/ibmorbapi.jar:/opt/ibm/java/jre/lib/ibmcfw.jar:/opt/ibm/java/jre/lib/ibmpkcs.jar:/opt/ibm/java/jre/lib/ibmcertpathfw.jar:/opt/ibm/java/jre/lib/ibmjgssfw.jar:/opt/ibm/java/jre/lib/ibmjssefw.jar:/opt/ibm/java/jre/lib/ibmsaslfw.jar:/opt/ibm/java/jre/lib/ibmjcefw.jar:/opt/ibm/java/jre/lib/ibmjgssprovider.jar:/opt/ibm/java/jre/lib/ibmjsseprovider2.jar:/opt/ibm/java/jre/lib/ibmcertpathprovider.jar:/opt/ibm/java/jre/lib/xmldsigfw.jar:/opt/ibm/java/jre/lib/xml.jar:/opt/ibm/java/jre/lib/charsets.jar:/opt/ibm/java/jre/lib/resources.jar:/opt/ibm/java/jre/lib/rt.jar:/opt/ibm/java/jre/lib/dataaccess.jar"/>
-    <property name="sun.desktop" value="gnome"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.runtime.version" value="8.0.5.5 - pxa6480sr5fp5-20171114_01(SR5 FP5)"/>
-    <property name="user.name" value="alan"/>
+    <property name="user.name" value="root"/>
     <property name="java.compiler" value="j9jit29"/>
     <property name="os.encoding" value="UTF-8"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -44,7 +43,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="ibm.signalhandling.sigint" value="true"/>
-    <property name="user.home" value="/home/alan"/>
+    <property name="user.home" value="/root"/>
     <property name="com.ibm.cpu.endian" value="little"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="ibm.signalhandling.sigchain" value="true"/>
@@ -54,20 +53,20 @@
     <property name="java.fullversion" value="8.0.5.5 - pxa6480sr5fp5-20171114_01(SR5 FP5)&#10;JRE 1.8.0 IBM J9 2.9 Linux amd64-64 Compressed References 20171102_369060 (JIT enabled, AOT enabled)&#10;OpenJ9   - 7ade437&#10;OMR      - 1b656cb&#10;IBM      - 59c3d96"/>
     <property name="maven.home" value="/usr/share/maven"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="sun.java.launcher.pid" value="24694"/>
+    <property name="sun.java.launcher.pid" value="44001"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/alan/eclipse-workspaces/customer/CustomerDetails"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/alan/demo/getcustomer"/>
     <property name="ibm.system.encoding" value="UTF-8"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="ibm.signalhandling.rs" value="false"/>
     <property name="java.ext.dirs" value="/opt/ibm/java/jre/lib/ext"/>
-    <property name="user.dir" value="/home/alan/eclipse-workspaces/customer/CustomerDetails"/>
+    <property name="user.dir" value="/home/alan/demo/getcustomer"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.name" value="IBM J9 VM"/>
     <property name="com.ibm.oti.shared.enabled" value="false"/>
@@ -76,6 +75,6 @@
     <property name="com.ibm.oti.configuration" value="scar"/>
     <property name="java.specification.version" value="1.8"/>
   </properties>
-  <testcase name="testCustomers" classname="application.test.CustomerResourceTest" time="5.826"/>
-  <testcase name="testCustomer_00000001" classname="application.test.CustomerResourceTest" time="0.375"/>
+  <testcase name="testCustomers" classname="application.test.CustomerResourceTest" time="11.469"/>
+  <testcase name="testCustomer_00000001" classname="application.test.CustomerResourceTest" time="0.31"/>
 </testsuite>
