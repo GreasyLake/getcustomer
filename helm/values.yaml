@@ -13,8 +13,8 @@
 ## Common image variables
 ###############################################################################
 image:
-  repository: XX_IMAGENAME_XX
-  tag: XX_TAG_XX
+  repository: alanhopkins/customerdetails
+  tag: demo_06022018
   pullPolicy: IfNotPresent
   license: "accept"
 
