@@ -18,12 +18,12 @@ public class CustomerDAO {
 		customer_00000001.setLastName("Wainwright");
 		customer_00000001.setDateOfBirth("12/10/1965");
 		customer_00000001.setEmailAddress("georgew@gmail.com");
-		customer_00000001.setTelephoneNumber("01937812762");
+		customer_00000001.setTelephoneNumber("07932189201");
 		customer_00000001.setAddr1("10 Beech Drive");
 		customer_00000001.setTown("Leeds");
 		customer_00000001.setCounty("West Yorkshire");
 		customer_00000001.setCountry("England");
-		customer_00000001.setPostCode("LS12 6DQ");
+		customer_00000001.setPostCode("MS10 4W3");
 		
 		CustomerResourceArray.add(customer_00000001);
 		
