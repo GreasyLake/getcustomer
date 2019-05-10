@@ -1,0 +1,27 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: getcustomer-deployment
+  namespace: #NAMESPACE#
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: getcustomer
+  template:
+    metadata:
+      labels:
+        app: getcustomer
+    spec:
+      containers:
+      - name: getcustomer
+        image: #IMAGE#
+        resources:
+          limits:
+            memory: "500Mi"
+            cpu: "4"
+          requests:
+            memory: "300Mi"
+            cpu: "2"
+        ports:
+        - containerPort: 9080
